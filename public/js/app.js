@@ -18,7 +18,9 @@ app.config(function ($routeProvider) {
             templateUrl: '/templates/pages/users/index.html'
         })
         .when('/notes/new', {
-            templateUrl: 'templates/pages/notes/edit.html'
+            templateUrl: 'templates/pages/notes/edit.html',
+            controller: 'NotesCreateController',
+            controllerAs: 'ctrlNote'
         })       
         .otherwise({
             redirectTo: '/notes'

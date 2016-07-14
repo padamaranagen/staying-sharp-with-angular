@@ -3,7 +3,7 @@
         <form class="form">
             <fieldset>
                 <label for="title">Title</label>
-                <input name="title" />
+                <input name="title" ng-model="note.title" />
             </fieldset>
 
             <fieldset>
@@ -13,10 +13,10 @@
 
             <fieldset>
                 <label for="content">Content</label>
-                <textarea name="content"></textarea>
+                <textarea name="content" ng-model="note.content"></textarea>
             </fieldset>
 
-            <button class="btn">Save</button>
+            <button class="btn" ng-click="ctrlNote.saveNote(note)">Save</button>
         </form>
     </div>
 </div>
