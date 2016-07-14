@@ -1,0 +1,22 @@
+{
+  "name": "staying-sharp-with-angular",
+  "version": "1.0.0",
+  "description": "Angularjs Part #2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagendramca2011/staying-sharp-with-angular.git"
+  },
+  "author": "Nagendra Padamara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagendramca2011/staying-sharp-with-angular/issues"
+  },
+  "homepage": "https://github.com/nagendramca2011/staying-sharp-with-angular#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

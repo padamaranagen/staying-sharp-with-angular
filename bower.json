@@ -1,0 +1,23 @@
+{
+  "name": "staying-sharp-with-angular",
+  "description": "Angularjs Part #2",
+  "main": "index.js",
+  "authors": [
+    "Nagendra Padamara"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nagendramca2011/staying-sharp-with-angular",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.0",
+    "angular": "angularjs#^1.5.7",
+    "angular-route": "^1.5.7"
+  }
+}
