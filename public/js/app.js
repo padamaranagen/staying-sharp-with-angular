@@ -21,7 +21,11 @@ app.config(function ($routeProvider) {
             templateUrl: 'templates/pages/notes/edit.html',
             controller: 'NotesCreateController',
             controllerAs: 'ctrlNote'
-        })       
+        })
+        .when('/notes/:id', {
+            templateUrl: 'templates/pages/notes/show.html',
+            controller: 'NotesShowController'
+        })
         .otherwise({
             redirectTo: '/notes'
         })
