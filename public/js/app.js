@@ -7,5 +7,12 @@ app.config(function ($routeProvider) {
         .when('/users', {
             templateUrl: '/templates/pages/users/index.html'
         })
+        .when('/notes/new', {
+            templateUrl: 'templates/pages/notes/edit.html'
+        })
+        .when('/', {
+            redirectTo: '/users'
+        })
+        .otherwise({ redirectTo: '/notes' })
     ;
 });
